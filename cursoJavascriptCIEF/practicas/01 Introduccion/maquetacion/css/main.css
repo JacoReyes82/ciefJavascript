@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Mono', monospace;
+    /* Padding no da mas tamaño  */
+}
+
+/*  Estilos footer abajo  */
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+/*  Estilos Generales  */
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/*  Estilos header  */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: aquamarine;
+    align-items: center;
+}
+
+header img {
+    width: 100px;
+}
+
+header ul li {
+    display: inline;
+    margin: 5px;
+}
+
+/*  Estilos main  */
+main {
+    padding: 20px;
+    flex-grow: 1;
+}
+article p {
+    text-align: justify;
+}
+
+/*  Estilos footer  */
+footer {
+    padding: 20px;
+    background-color: aquamarine;
+    text-align: center;
+
+}
